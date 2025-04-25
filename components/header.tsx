@@ -140,7 +140,7 @@ const Header = () => {
             }}
             className="py-2 hover:text-primary transition-colors duration-200"
           >
-            Features
+            特征
           </button>
           <button
             onClick={() => {
@@ -149,14 +149,14 @@ const Header = () => {
             }}
             className="py-2 hover:text-primary transition-colors duration-200"
           >
-            Highlights
+            游戏亮点
           </button>
           <Button 
             variant="secondary" 
             className="w-full"
-            onClick={() => window.open('https://pokemon.com', '_blank')}
+            onClick={() => window.open('https://game.jdbjl.top/login', '_blank')}
           >
-            User Management
+            用户管理
           </Button>
         </div>
       </motion.div>
